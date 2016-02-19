@@ -12,11 +12,14 @@ table {
 	border-radius:2px;
 	border: 7px solid black;
 	background-color: white;
+	box-shadow: 7px 7px 5px;
 }
 
 th, td {
 	border: 5px solid black !important; 
 	font-size: 70px !important; 
+	text-shadow: 2px 3px 5px;
+	//transform: rotateY(180deg);
 }
 
 button {
@@ -35,11 +38,18 @@ button {
 }
 
 h1 {
-	color:blue;
+	color:yellow;
+}
+
+.resetButton {
+	width: 10%;
+	height: auto;
+	color:white;
 }
 
 .pad {
-	height: 100px;
+	height:150px;
+	//text-align: left;
 }
 
 #board {
@@ -50,6 +60,7 @@ h1 {
 	width:400px;
 	height:400px;
 	text-align:center;
+
 }
 
 .boardCell {
