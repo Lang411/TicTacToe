@@ -2,8 +2,21 @@ body {
 	background-image: url('file:///C:/Users/lkenney/Desktop/CODE/Tic%20Tac%20Toe/writer-desktop-backgrounds-wallpapers.jpg');
 	background-repeat: no-repeat;
 	background-size: 100%;
+	text-align:center;
 
 }
+
 h1 {
 	color:blue;
+}
+
+.pad {
+	height: 100px;
+}
+
+#board {
+	boarder:2px;
+	width: 200px;
+	height: 200px;
+	text-align:center;
 }
