@@ -1,56 +1,65 @@
 <!DOCTYPE html>
 <html>
 <html>
-	<head>
-		<title>Tic Tac Toe</title>
-		<link rel="stylesheet" type="text/css" href="mystyles.css" media="screen" />
-		<script src="js/index.js"></script>
-		
-		<meta charset="utf-8" />
-		<!-- jQuery library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<head>
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" type="text/css" href="mystyles.css" media="screen" />
+	<script src="js/index.js"></script>
 
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-		
-		<link rel="stylesheet" type="text/css" href="mystyles.css" media="screen" />
-
-		<script src="index.js"></script>
+	<meta charset="utf-8" />
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	
-	</head>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="mystyles.css" media="screen" />
+
+	<script src="index.js"></script>
 	
-	<body>
+</head>
+
+<body>
 
 	<div class="pad">
 		<h1></h1>
 	</div>
 	
-	<div id="board">
-		<table>
-			<tr>
-				<td class='btn col-md-4'>1</td>
-				<td class='btn col-md-4'>2</td>
-				<td class='btn col-md-4'>3</td>
-			</tr>
-			<tr>
-				<td class='btn col-md-4'>4</td>
-				<td class='btn col-md-4'>5</td>
-				<td class='btn col-md-4'>6</td>
-			</tr>
-			<tr>
-				<td class='btn col-md-4'>7</td>
-				<td class='btn col-md-4'>8</td>
-				<td class='btn col-md-4'>9</td>
-			</tr>
+	<div id="playArea">
+		<div class='col-md-4' id="LeftArea">
+			<h1>X's Turn! &rarr; </h1>
+		</div>
 
-		</table>
+		<div class='col-md-4' id="board">
+			<table>
+				<tr>
+					<td class='btn col-md-4'>O</td>
+					<td class='btn col-md-4'>X</td>
+					<td class='btn col-md-4'>O</td>
+				</tr>
+				<tr>
+					<td class='btn col-md-4'>X</td>
+					<td class='btn col-md-4'>X</td>
+					<td class='btn col-md-4'>O</td>
+				</tr>
+				<tr>
+					<td class='btn col-md-4'>X</td>
+					<td class='btn col-md-4'>X</td>
+					<td class='btn col-md-4'>X</td>
+				</tr>
+
+			</table>
+		</div>
+
+		<div class='col-md-4' id="RightArea">
+			<h1>&larr; O's Turn!</h1>
+		</div>
 	</div>
-		
-	</body>
+</body>
 </html
